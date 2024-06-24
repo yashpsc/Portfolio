@@ -53,7 +53,7 @@
             <a
               class="links"
               target="_blank"
-              href="yash_cv_001.pdf"
+              href="yash_cv_002.pdf"
               download="YashPS_cv"
               >Download CV</a
             ><i class="uil uil-file-alt"></i>
@@ -68,68 +68,89 @@
       <main class="wrapper">
         <!-- -------------- FEATURED BOX ---------------- -->
         <section class="featured-box" id="home">
-          
-            
-            <div class="featured-text">
-              <div class="featured-name">
-                <p>I'm a <span class="typedText"></span></p>
+          <div class="featured-text">
+            <div class="featured-name">
+              <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>
+                Welcome to my portfolio! An aspiring UI Developer with a knack
+                for creating user-friendly interfaces. With expertise in React,
+                CSS, HTML, and more, I bring a blend of creativity and technical
+                skill to every project. Check out my work to see how I infuse
+                innovation and design principles into web development.
+              </p>
+            </div>
+            <div class="featured-text-btn">
+              <!-- <button class="btn blue-btn">Download CV</button> -->
+              <button class="btn">
+                <a
+                  class="links"
+                  target="_blank"
+                  href="yash_cv_002.pdf"
+                  download="YashPS_cv"
+                  >Download CV</a
+                ><i class="uil uil-file-alt"></i>
+              </button>
+            </div>
+            <div class="social_icons">
+              <div class="icon">
+                <a
+                  class="links"
+                  href="https://www.instagram.com/yshpsc/"
+                  target="_blank"
+                  ><i class="uil uil-instagram"></i
+                ></a>
               </div>
-              <div class="featured-text-info">
-                <p>
-                  Welcome to my portfolio! An aspiring UI Developer with a
-                  knack for creating user-friendly interfaces. With expertise
-                  in React, CSS, HTML, and more, I bring a blend of creativity
-                  and technical skill to every project. Check out my work to
-                  see how I infuse innovation and design principles into
-                  web development.
-                </p>
+              <div class="icon">
+                <a
+                  class="links"
+                  href="https://www.linkedin.com/in/yash-pratap-singh-chauhan-05a2b2171/"
+                  target="_blank"
+                  ><i class="uil uil-linkedin-alt"></i
+                ></a>
               </div>
-              <div class="featured-text-btn">
-                <!-- <button class="btn blue-btn">Download CV</button> -->
-                <button class="btn">
-                  <a
-                    class="links"
-                    target="_blank"
-                    href="yash_cv_001.pdf"
-                    download="YashPS_cv"
-                    >Download CV</a
-                  ><i class="uil uil-file-alt"></i>
-                </button>
-              </div>
-              <div class="social_icons">
-                <div class="icon">
-                  <a
-                    class="links"
-                    href="https://www.instagram.com/yshpsc/"
-                    target="_blank"
-                    ><i class="uil uil-instagram"></i
-                  ></a>
-                </div>
-                <div class="icon">
-                  <a
-                    class="links"
-                    href="https://www.linkedin.com/in/yash-pratap-singh-chauhan-05a2b2171/"
-                    target="_blank"
-                    ><i class="uil uil-linkedin-alt"></i
-                  ></a>
-                </div>
-                <div class="icon">
-                  <a
-                    class="links"
-                    href="https://github.com/yashpsc"
-                    target="_blank"
-                    ><i class="uil uil-github-alt"></i
-                  ></a>
-                </div>
+              <div class="icon">
+                <a
+                  class="links"
+                  href="https://github.com/yashpsc"
+                  target="_blank"
+                  ><i class="uil uil-github-alt"></i
+                ></a>
               </div>
             </div>
-            
-            <div class="featured-image">
-              <div class="image" style="border-radius: 12px">
+          </div>
+
+          <div class="featured-image">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img src="Assets/yash_img_1.jpg" alt="image" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="Assets/yash_img_2.jpg" alt="image" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="Assets/yash_img_3.jpg" alt="image" />
+              </div>
+
+              <div class="mySlides fade">
+                <img src="Assets/yash_img_4.jpg" alt="image" />
+              </div>
+            </div>
+            <br />
+
+            <div style="visibility: hidden">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <!-- <div class="image" style="border-radius: 12px">
                 <img src="Assets/yash_img_1.jpg" alt="avatar" />
-              </div>
-            </div>
-         
+              </div> -->
+          </div>
         </section>
         <!-- -------------- ABOUT BOX ---------------- -->
         <section class="section" id="about">
@@ -151,7 +172,7 @@
                 </p>
                 <div class="about-btn">
                   <button type="button" class="btn download-btn">
-                    <a class="links" href="yash_cv_001.pdf" download="YashPS_cv"
+                    <a class="links" href="yash_cv_002.pdf" download="YashPS_cv"
                       >Download CV</a
                     ><i class="uil uil-import"></i>
                   </button>
@@ -206,7 +227,7 @@
           <div class="top-header">
             <h1>Work Project</h1>
           </div>
-          <div class="project-container">
+          <div class="project-container" onclick="getProjectLink(1)">
             <div class="project-box">
               <i class="uil uil-building"></i>
               <h3 class="project-headers">
@@ -218,7 +239,7 @@
                 >
               </h3>
             </div>
-            <div class="project-box">
+            <div class="project-box" onclick="getProjectLink(2)">
               <i class="uil uil-car-wash"></i>
               <h3 class="project-headers">
                 <a class="links" href="https://camcom.ai/" target="_blank"
@@ -226,7 +247,7 @@
                 >
               </h3>
             </div>
-            <div class="project-box">
+            <div class="project-box" onclick="getProjectLink(3)">
               <i class="uil uil-home"></i>
               <h3 class="project-headers">
                 <a
@@ -237,7 +258,7 @@
                 >
               </h3>
             </div>
-            <div class="project-box">
+            <div class="project-box" onclick="getProjectLink(4)">
               <i class="uil uil-calculator"></i>
               <h3 class="project-headers">
                 <a class="links" href="https://mainhardware.in/" target="_blank"
@@ -379,5 +400,31 @@
 
     <!-- ----- MAIN JS ----- -->
     <script src="src/script.js"></script>
+
+    <!-- sliderjs -->
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2500); // Change image every 2 seconds
+      }
+    </script>
   </body>
 </html>
