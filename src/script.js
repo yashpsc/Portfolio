@@ -42,7 +42,14 @@ function getProjectLink(n) {
       window.open("https://aplapollocoatedsteel.com/");
       break;
     case 4:
-  window.open("https://mainhardware.in/");
+      window.open("https://mainhardware.in/");
+    case 5:
+      window.open("https://github.com/yashpsc/-studios_demo");
+    case 6:
+      window.open("https://github.com/yashpsc/-Ai");
+    case 7:
+      window.open("https://yashpsc.github.io/pearmations-comingsoon/");
+
       break;
     default:
       window.open("https://github.com/yashpsc");
