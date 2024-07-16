@@ -43,13 +43,15 @@ function getProjectLink(n) {
       break;
     case 4:
       window.open("https://mainhardware.in/");
+      break;
     case 5:
       window.open("https://github.com/yashpsc/-studios_demo");
+      break;
     case 6:
       window.open("https://github.com/yashpsc/-Ai");
+      break;
     case 7:
       window.open("https://yashpsc.github.io/pearmations-comingsoon/");
-
       break;
     default:
       window.open("https://github.com/yashpsc");
